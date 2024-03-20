@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(120deg, #fd550d, #bfbbac, #A0E7E5);
+    /* Pastel Red: #FFD3C0, Pastel Yellow: #FFEFB3, Pastel Blue: #A0E7E5 */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+        
+.grid-container {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.grid-container .grid-wrapper {
+    display: flex;
+}
+
+.grid-container .grid-wrapper .grid {
+    flex-shrink: 0;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.scroll-button i {
+    color: #333;
+    font-size: 18px;
+}
+
+.scroll-button-left {
+    left: 0;
+}
+
+.scroll-button-right {
+right: 0;
+}
+
+.isi{
+    border-radius: 50px;
+}
+.ejet{
+    border-radius: 40px;
+}
